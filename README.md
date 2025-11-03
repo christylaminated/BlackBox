@@ -1,1 +1,1 @@
-# BLACKBOC
+# Journal App
