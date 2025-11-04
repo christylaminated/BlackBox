@@ -26,18 +26,25 @@ A mobile journaling app built with Expo (React Native + TypeScript) that allows 
 - Expo Go app (for testing on physical device)
 - iOS Simulator (Mac only) or Android Emulator
 
-## Installation
+## Quick Setup
 
-1. Clone the repository:
+**Option 1: Automated Setup (Recommended)**
 ```bash
 git clone <repository-url>
-cd journal-app
+cd BlackBox
+./install-deps.sh
 ```
 
-2. Install dependencies:
+**Option 2: Manual Setup**
 ```bash
+git clone <repository-url>
+cd BlackBox
 npm install
+npx expo install expo-sqlite expo-asset react-native-web react-dom
+npx expo install --fix
 ```
+
+> **Note**: See `SETUP.md` for detailed setup instructions and troubleshooting.
 
 ## Running the App
 

@@ -30,7 +30,10 @@
     },
     "scheme": "journalapp",
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-sqlite",
+      "expo-asset",
+      "expo-font"
     ]
   }
 }
